@@ -1,0 +1,27 @@
+{
+  "name": "my-quick-node-app",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "tsx --watch src/server.tsx",
+    "test": "vitest run",
+    "test:w": "vitest"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.4.0",
+    "@playwright/test": "^1.40.1",
+    "@prisma/client": "^5.7.1",
+    "hono": "^3.12.0"
+  },
+  "devDependencies": {
+    "@fast-check/vitest": "^0.0.9",
+    "@types/node": "^20.10.6",
+    "@vitest/ui": "^1.1.3",
+    "dotenv-cli": "^7.3.0",
+    "esbuild": "^0.19.11",
+    "prisma": "^5.7.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.3"
+  }
+}
