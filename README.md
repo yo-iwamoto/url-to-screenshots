@@ -1,8 +1,3 @@
-とりあえず何も考えずに一瞬で node を書きたい時のためのテンプレ (稀によくある)
+# url-to-screenshots
 
-## prisma, DB を利用する場合
-
-```shell
-cp .env.example .env
-docker-compose up -d
-```
+前になんかのタイミングで書いた、URL を入れると Playwright で PC/SP、ライト/ダークモードのスクリーンショットを撮ってくれるやつ。
